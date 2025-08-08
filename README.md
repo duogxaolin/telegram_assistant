@@ -34,8 +34,8 @@ A comprehensive Telegram bot built with PHP that features message storage, AI in
 
 ### 1. Clone and Setup
 ```bash
-git clone <repository-url>
-cd telegram-bot
+git clone https://github.com/duogxaolin/telegram_assistant.git
+cd telegram_assistant
 composer install
 ```
 
