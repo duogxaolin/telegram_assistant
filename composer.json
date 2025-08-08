@@ -1,0 +1,21 @@
+{
+    "name": "telegram-bot/php-ai-bot",
+    "description": "Telegram Bot with PHP, SQL Database, and Gemini AI Integration",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramBot\\": "src/"
+        }
+    },
+    "scripts": {
+        "install-db": "php scripts/install_database.php"
+    }
+}
